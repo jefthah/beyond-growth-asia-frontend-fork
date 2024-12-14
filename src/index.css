@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-opacity-custom {
+  background-color: rgba(48, 72, 22, 0.9);
+}
+
+.bg-opacity-header {
+  background-color: rgba(48, 72, 22, 0.7);
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./assets/fonts/Satoshi-Regular.otf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url("./assets/fonts/Neue Regrade Regular.otf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue-bold";
+  src: url("./assets/fonts/Neue Regrade Bold.otf") format("truetype");
+  font-style: normal;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
+.font-neue {
+  font-family: "Neue", sans-serif;
+}
+
+.font-neue-bold {
+  font-family: "Neue-bold", sans-serif;
+}
